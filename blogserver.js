@@ -1,8 +1,6 @@
 const res = require("express/lib/response");
 const { MongoClient } = require("mongodb");
 const uri = require("./serverpath");
-// const uri =
-//   "mongodb+srv://saritchh:q1w2e3r4@cluster0.9o36c.mongodb.net/blog?retryWrites=true&w=majority";
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
